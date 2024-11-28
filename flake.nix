@@ -10,15 +10,15 @@
     nixpkgs,
   }: let
     system = "x86_64-linux";
-    version = "1.0.1-a.19";
+    version = "1.0.1-a.20";
     downloadUrl = {
       "specific" = {
         url = "https://github.com/zen-browser/desktop/releases/download/${version}/zen.linux-specific.tar.bz2";
-        sha256 = "sha256:1g7nq1yfaya97m43vnkjj1nd9g570viy8hj45c523hcyr1z92rjq";
+        sha256 = "sha256:07z1ndjkz7kfk84pvx4jqa3ws1jv4n32al4pjyc2ip3m756a38ww";
       };
       "generic" = {
         url = "https://github.com/zen-browser/desktop/releases/download/${version}/zen.linux-generic.tar.bz2";
-        sha256 = "sha256:1zyz61lhr95kzcbfrqfxygcxmi8v97ffc9bdbrz3xl2ai7fzivwn";
+        sha256 = "sha256:1ipr99c8sfhgixzkdr432qfl1czi9m5x58qpmvybqg57s4998wdm";
       };
     };
 
